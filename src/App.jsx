@@ -1,9 +1,20 @@
+import userData from "../userData.json";
+import Profile from "./components/Profile";
+
+
 const App = () => {
+  
   return (
-   <div>
-    Hello
-   </div>
-  )
-}
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+    </>
+  );
+};
 
 export default App
