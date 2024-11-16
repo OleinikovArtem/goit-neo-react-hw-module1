@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.item {
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.smallText {
+  font-size: 12px;
+}
+
+.offline {
+  color: red;
+}
+
+.online {
+  color: green;
+}
